@@ -35,22 +35,65 @@
   "@type": "MedicalBusiness",
   "name": "Jenny Vinckier – Ergothérapeute pédiatrique",
   "description": "Ergothérapeute spécialisée en pédiatrie : accompagnement des enfants et adolescents à Ath, Lessines et La Louvière.",
-  "medicalSpecialty": "Ergothérapie pédiatrique",
+  "medicalSpecialty": [
+    {
+      "@type": "MedicalSpecialty",
+      "name": "OccupationalTherapy"
+    },
+    {
+      "@type": "MedicalSpecialty",
+      "name": "Ergothérapie pédiatrique"
+    }
+  ],
   "telephone": "+32499870829",
   "email": "vinckierjenny@gmail.com",
   "priceRange": "50 €",
   "image": "https://jenny-vinckier-ergotherapeute.github.io/images/photo-jenny.jpg",
   "url": "https://jenny-vinckier-ergotherapeute.github.io/",
-  "founder": { "@type": "Person", "name": "Jenny Vinckier", "jobTitle": "Ergothérapeute" },
+  "founder": { 
+    "@type": "Person", 
+    "name": "Jenny Vinckier", 
+    "jobTitle": "Ergothérapeute" 
+  },
   "areaServed": [
     { "@type": "City", "name": "Ath" },
     { "@type": "City", "name": "Lessines" },
     { "@type": "City", "name": "La Louvière" }
   ],
   "location": [
-    { "@type": "Place", "name": "Centre L'Odyssée Ath", "address": { "@type": "PostalAddress", "streetAddress": "160 chaussée de Mons", "postalCode": "7800", "addressLocality": "Ath", "addressCountry": "BE" } },
-    { "@type": "Place", "name": "Centre Thérapeutique Lessines", "address": { "@type": "PostalAddress", "streetAddress": "rue Général Freyberg 2A", "postalCode": "7860", "addressLocality": "Lessines", "addressCountry": "BE" } },
-    { "@type": "Place", "name": "Centre L'Odyssée La Louvière", "address": { "@type": "PostalAddress", "streetAddress": "8 rue Jean Baptiste Berger", "postalCode": "7100", "addressLocality": "La Louvière", "addressCountry": "BE" } }
+    { 
+      "@type": "Place", 
+      "name": "Centre L'Odyssée Ath", 
+      "address": { 
+        "@type": "PostalAddress", 
+        "streetAddress": "160 chaussée de Mons", 
+        "postalCode": "7800", 
+        "addressLocality": "Ath", 
+        "addressCountry": "BE" 
+      } 
+    },
+    { 
+      "@type": "Place", 
+      "name": "Centre Thérapeutique Lessines", 
+      "address": { 
+        "@type": "PostalAddress", 
+        "streetAddress": "rue Général Freyberg 2A", 
+        "postalCode": "7860", 
+        "addressLocality": "Lessines", 
+        "addressCountry": "BE" 
+      } 
+    },
+    { 
+      "@type": "Place", 
+      "name": "Centre L'Odyssée La Louvière", 
+      "address": { 
+        "@type": "PostalAddress", 
+        "streetAddress": "8 rue Jean Baptiste Berger", 
+        "postalCode": "7100", 
+        "addressLocality": "La Louvière", 
+        "addressCountry": "BE" 
+      } 
+    }
   ],
   "sameAs": [
     "https://www.facebook.com/profile.php?id=100088983528540",
